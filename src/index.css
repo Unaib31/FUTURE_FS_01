@@ -17,6 +17,10 @@ body {
 
   padding: 20px 50px;
   background-color: #1e293b;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -100,6 +104,11 @@ body {
   font-size: 45px;
   margin-bottom: 50px;
   color: cyan;
+}
+
+section {
+  padding: 120px 50px;
+  min-height: 100vh;
 }
 
 .about-content {
@@ -191,4 +200,45 @@ body {
 
 .project-card p {
   line-height: 1.7;
+}
+
+.contact {
+  background-color: #0f172a;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.contact-container p {
+  font-size: 22px;
+}
+
+.contact-container a {
+  color: cyan;
+
+  margin-left: 10px;
+
+  text-decoration: none;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: #1e293b;
+
+  padding: 25px;
+
+  text-align: center;
+
+  font-size: 18px;
 }
