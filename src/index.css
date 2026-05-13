@@ -149,3 +149,46 @@ body {
   background-color: cyan;
   color: black;
 }
+
+.projects {
+  background-color: #111827;
+}
+
+.projects-container {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 30px;
+
+  margin-top: 50px;
+}
+
+.project-card {
+  background-color: #1e293b;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-card h2 {
+  margin-bottom: 15px;
+  color: cyan;
+}
+
+.project-card h4 {
+  margin-bottom: 15px;
+  color: lightgray;
+}
+
+.project-card p {
+  line-height: 1.7;
+}
