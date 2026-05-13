@@ -116,3 +116,36 @@ body {
   line-height: 1.8;
   text-align: center;
 }
+
+.skills {
+  background-color: #0f172a;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.skill-card {
+  background-color: #1e293b;
+
+  padding: 20px 40px;
+
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  background-color: cyan;
+  color: black;
+}
