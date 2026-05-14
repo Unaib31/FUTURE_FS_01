@@ -1,3 +1,5 @@
+
+import { motion } from "framer-motion"
 function Projects() {
 
     const projectData = [
@@ -37,7 +39,18 @@ function Projects() {
 
                 {
                     projectData.map((project, index) => (
-                        <div className="project-card" key={index}>
+                        <motion.div
+                            className="project-card"
+                            key={index}
+
+                            initial={{ opacity: 0, y: 40 }}
+
+                            whileInView={{ opacity: 1, y: 0 }}
+
+                            transition={{ duration: 0.6 }}
+
+                            viewport={{ once: true }}
+                        >
 
                             <h2>{project.title}</h2>
 
@@ -55,7 +68,7 @@ function Projects() {
                                 </button>
                             </a>
 
-                        </div>
+                        </motion.div>
                     ))
                 }
 

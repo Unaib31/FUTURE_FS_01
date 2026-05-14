@@ -1,9 +1,19 @@
+
+import { motion } from "framer-motion"
 import resume from '../assets/resume.pdf'
 function HeroTemp() {
   return (
     <section id="home" className="hero">
 
-      <div className="hero-content">
+      <motion.div
+        className="hero-content"
+
+        initial={{ opacity: 0, y: 50 }}
+
+        animate={{ opacity: 1, y: 0 }}
+
+        transition={{ duration: 1 }}
+      >
 
         <h2>Hello, I'm</h2>
 
@@ -40,8 +50,7 @@ function HeroTemp() {
         </div>
 
 
-      </div>
-
+      </motion.div>
     </section>
   )
 }
