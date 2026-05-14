@@ -1,16 +1,42 @@
-# React + Vite
+# Abu Unaib Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive portfolio website built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive design
+- Smooth scrolling navigation
+- Animated UI using Framer Motion
+- Dynamic project cards
+- Downloadable resume
+- GitHub project links
+- Mobile-friendly layout
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Framer Motion
+- React Icons
+- Git & GitHub
+- Vite
 
-## Expanding the ESLint configuration
+## Projects Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI Attendance Management System
+Built a real-time face recognition based attendance system using Python and OpenCV.
+
+### Snake Game
+Developed a classic Snake Game using Kotlin and Android Studio.
+
+### Portfolio Website
+Personal portfolio website built with React and responsive UI design.
+
+## Live Demo
+
+https://future-fs-01.vercel.app
+
+## Author
+
+Abu Unaib
