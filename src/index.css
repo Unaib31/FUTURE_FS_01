@@ -35,12 +35,15 @@ body {
   list-style: none;
 }
 
-.nav-links li {
-  cursor: pointer;
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
   transition: 0.3s;
 }
 
-.nav-links li:hover {
+.nav-links a:hover {
   color: cyan;
 }
 
@@ -216,11 +219,13 @@ section {
 
 .contact-container {
   display: flex;
-  flex-direction: column;
 
-  gap: 25px;
-
+  justify-content: center;
   align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 40px;
 
   margin-top: 40px;
 }
