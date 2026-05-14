@@ -293,3 +293,41 @@ section {
   }
 
 }
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+}
+
+.resume-btn {
+  background-color: #1e293b;
+  color: white;
+}
+
+.resume-btn:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.project-btn {
+  margin-top: 20px;
+
+  padding: 10px 18px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: cyan;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.project-btn:hover {
+  background-color: white;
+}

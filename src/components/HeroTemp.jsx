@@ -1,3 +1,4 @@
+import resume from '../assets/resume.pdf'
 function HeroTemp() {
   return (
     <section id="home" className="hero">
@@ -18,9 +19,26 @@ function HeroTemp() {
           Java, Python, and modern web technologies.
         </p>
 
-        <a href="#projects">
-          <button>View Projects</button>
-        </a>
+
+        <div className="hero-buttons">
+
+          <a href="#projects">
+            <button>
+              View Projects
+            </button>
+          </a>
+
+          <a
+            href={resume}
+            download
+          >
+            <button className="resume-btn">
+              Download Resume
+            </button>
+          </a>
+
+        </div>
+
 
       </div>
 
